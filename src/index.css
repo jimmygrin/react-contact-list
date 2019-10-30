@@ -55,7 +55,7 @@ img {
 
 
 #mypeeps{
-  background: green;  
+  background: #81bc39;
   color: white;
   height: 50px;
   line-height: 50px;
@@ -103,7 +103,7 @@ display: flexbox;
 }
 
 #singlepic{
-  background-color: green;
+  background-color: #a7d076;
   text-align: center;
   height: 200px;
   line-height: 200px;
