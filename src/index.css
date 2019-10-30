@@ -86,6 +86,7 @@ display: flexbox;
   height: 500px;
   margin: auto;
   border: solid black 1px;
+  position: relative;
 }
 #singleview h3{
 
@@ -114,7 +115,7 @@ display: flexbox;
 #link {
   position: absolute;
   top: 95px;
-  left:495px; 
+  left:30px; 
   font-size: 30px;
   color: black;
 }
