@@ -10,4 +10,108 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
+} */
+
+
+img {
+  border-radius: 50%;
 }
+#container.h2 {
+  display: block;
+  text-align: center;
+}
+
+#listview {
+  width: 500px;
+  height: 1900px;
+  margin: auto;
+  border: black 1px solid;
+  display: flexbox;
+}
+
+#listview h3{
+
+  border-bottom: black solid 1px;
+  padding-bottom: 20px;
+  text-align: center;
+ 
+}
+
+#container {
+  width: 500px;
+  height: 1000px;
+  margin: auto;
+  border: black 1px solid;
+ 
+}
+
+#singleview {
+  width: 500px;
+  height: 500px;
+  margin: auto;
+  border: solid black 1px;
+}
+
+
+
+#mypeeps{
+  background: green;
+  color: white;
+  height: 50px;
+  line-height: 50px;
+  padding: 10px;
+  font-weight: 700;
+  margin: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+
+}
+
+#list{
+margin-top: 20px;  
+display: flexbox;
+
+
+}
+
+#singleview {
+  width: 500px;
+  height: 500px;
+  margin: auto;
+  border: solid black 1px;
+}
+#singleview h3{
+
+  border-bottom: black solid 1px;
+  padding-bottom: 20px;
+  text-align: center;
+ 
+}
+
+#singleview img{
+  border-radius: 50%;
+  vertical-align: middle;
+
+}
+
+#singlepic{
+  background-color: green;
+  text-align: center;
+  height: 200px;
+  line-height: 200px;
+  margin: 10px;
+  
+}
+
+#singledetails {
+ margin: 10px;
+  
+}
+
+main {
+  /* display: flex;
+  flex-direction: column;
+  justify-content: center; */
+  
+} 
