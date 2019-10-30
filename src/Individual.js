@@ -17,6 +17,7 @@ return (
     
     <img src={Individual.picture.large}/>
     </div>
+    <Link to="/"><span id="link">&#8592;</span></Link>
     <div id="singledetails">
     <p>{Individual.name.first} {Individual.name.last}</p>
     <hr></hr>
@@ -25,7 +26,6 @@ return (
     <p>{Individual.cell}</p>
     <hr></hr>
     <p>{Individual.location.city}, {Individual.location.state}</p>
-    <hr></hr>
     </div>
     </div>
     

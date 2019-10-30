@@ -49,13 +49,13 @@ img {
   width: 500px;
   height: 500px;
   margin: auto;
-  border: solid black 1px;
+  border: solid lightgray 1px;
 }
 
 
 
 #mypeeps{
-  background: green;
+  background: green;  
   color: white;
   height: 50px;
   line-height: 50px;
@@ -74,6 +74,12 @@ display: flexbox;
 
 
 }
+
+#thumb{
+  border-radius: 50px;
+}
+
+
 
 #singleview {
   width: 500px;
@@ -101,7 +107,16 @@ display: flexbox;
   height: 200px;
   line-height: 200px;
   margin: 10px;
+  position: relative;
   
+}
+
+#link {
+  position: absolute;
+  top: 95px;
+  left:495px; 
+  font-size: 30px;
+  color: black;
 }
 
 #singledetails {

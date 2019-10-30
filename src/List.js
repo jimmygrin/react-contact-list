@@ -16,7 +16,7 @@ import Contacts from "./randomUsers.json"
            {Contacts.map(individual => ( 
             <Link key={"ind-link-" + individual.id} to={"/Individual/" + individual.id}> 
             
-              <img src={individual.picture.thumbnail}></img><span>{individual.name.first} {individual.name.last}</span>
+              <img id="thumb" src={individual.picture.thumbnail}></img><span>{individual.name.first} {individual.name.last}</span>
               <hr></hr>
             
             </Link>))
